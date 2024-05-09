@@ -10,6 +10,9 @@ export default {
      primary:"#d9f99d",
      secondary:"#365314",
       white:"#ffffff",
+      logo:"#4d7c0f",
+
+      hover:"#f9f9f9",
     },
     fontFamily:{
       sans:["Poppins","sans-serif"]
