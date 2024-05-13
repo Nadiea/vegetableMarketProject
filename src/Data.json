@@ -1,0 +1,122 @@
+
+
+
+
+{
+    "vegetable_categories": [
+      {
+        "category_id": "1",
+        "category_name": "Green Vegetable",
+        "image_url": "/src/assets/image/category/category1.jpg",
+        "products": [
+          {
+            "product_id": "1",
+            "name": "Water spinach",
+            "image_url": "/src/assets/image/product/Water spinach.jpg",
+            "price": "10",
+            "description": "Nutrient-rich leafy green vegetable."
+          },
+          {
+            "product_id": "2",
+            "name": "Palong Shak",
+            "image_url": "/src/assets/image/product/Palong Shak.jpg",
+            "price": "20",
+            "description": "High in vitamins and antioxidants."
+          },
+          {
+            "product_id": "3",
+            "name": "Malabar spinach",
+            "image_url": "/src/assets/image/product/Malabar spinach.jpg",
+            "price": "30",
+            "description": "Crunchy and refreshing salad green."
+          }
+        ]
+      },
+      {
+        "category_id": "2",
+        "category_name": "Colour Vegetable",
+        "image_url": "/src/assets/image/category/category2.jpg",
+        "products": [
+          {
+            "product_id": "4",
+            "name": "Tomato",
+            "image_url": "/src/assets/image/product/totato.jpg",
+            "price": "20",
+            "description": "Sweet and crunchy root vegetable."
+          },
+          {
+            "product_id": "5",
+            "name": "Papaya",
+            "image_url": "/src/assets/image/product/Papaya.jpg",
+            "price": "30",
+            "description": "Versatile starchy tuber."
+          },
+          {
+            "product_id": "6",
+            "name": "Eggplant",
+            "image_url": "/src/assets/image/product/Eggplant.jpg",
+            "price": "40",
+            "description": "Sweet and earthy root vegetable."
+          }
+        ]
+      },
+      {
+        "category_id": "3",
+        "category_name": "Cruciferous Vegetables",
+        "image_url": "/src//assets/image/category/3.jpg",
+        "products": [
+          {
+            "product_id": "7",
+            "name": "Broccoli",
+            "image_url": "/src/assets/image/product/brocoli.jpg",
+            "price": "50",
+            "description": "Nutrient-rich vegetable with a distinct taste."
+          },
+          {
+            "product_id": "8",
+            "name": "Cauliflower",
+            "image_url": "/src/assets/image/product/cauliflower.jpg",
+            "price": "60",
+            "description": "Versatile vegetable that can be roasted or mashed."
+          },
+          {
+            "product_id": "9",
+            "name": "Cabbage",
+            "image_url": "/src/assets/image/product/Cabbage.jpg",
+            "price": "70",
+            "description": "Small, leafy green vegetables with a nutty flavor."
+          }
+        ]
+      },
+      {
+        "category_id": "4",
+        "category_name": "Root Vegetables",
+        "image_url": "/src/assets/image/category/4.jpg",
+        "products": [
+          {
+            "product_id": "10",
+            "name": "Onions",
+            "image_url": "/src/assets/image/product/Onion.jpg",
+            "price": "80",
+            "description": "Versatile vegetable used in various cuisines."
+          },
+          {
+            "product_id": "11",
+            "name": "Ginger",
+            "image_url": "/src/assets/image/product/Ginger.jpg",
+            "price": "90",
+            "description": "Pungent bulb used to add flavor to dishes."
+          },
+          {
+            "product_id": "12",
+            "name": "potato",
+            "image_url": "/src/assets/image/product/Potato.jpg",
+            "price": "100",
+            "description": "Small, mild-flavored bulbs used in cooking."
+          }
+        ]
+      }
+   
+    ]
+  }
+  

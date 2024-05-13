@@ -6,11 +6,22 @@ export default {
   ],
   theme: {
     extend: {},
+    screens:{
+      sm:"640px",
+      md:"768px",
+      lg:"1024px",
+      xl:"1280px",
+      "2xl":"1536px"
+    },
+    
     colors:{
      primary:"#d9f99d",
      secondary:"#365314",
       white:"#ffffff",
       logo:"#4d7c0f",
+      hero:"#d9f99d",
+
+
 
       hover:"#f9f9f9",
     },
@@ -29,3 +40,6 @@ export default {
   },
   plugins: [],
 }
+
+
+// sm:  lg: xl: 2xl: md:
