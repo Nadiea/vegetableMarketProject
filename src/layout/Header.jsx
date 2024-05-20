@@ -10,16 +10,20 @@ import { FaCarrot } from "react-icons/fa6";
 import { FaCartArrowDown } from "react-icons/fa";
 import { RxDropdownMenu } from "react-icons/rx";
 import { useState } from "react";
+import { useContext } from "react";
+import { CartContext } from "../context/CartProvider";
+
 export default function Header() {
   //dropdown menu
   const [showMenu, setShowMenu] = useState(false);
+  const { cart  } = useContext(CartContext);
 
   const handleMenu = () => {
     setShowMenu(!showMenu);
   };
 
   return (
-    <div className=" text-secondary   font-sans  font-bold ">
+    <div className=" text-secondary    font-sans  font-bold ">
       {/* first navbar */}
       <div className="  bg-primary shadow-md hidden md:block lg:block xl:block 2xl:block ">
         <div className="   container justify-between flex  py-2">
@@ -63,6 +67,8 @@ export default function Header() {
               {" "}
               <RxDividerVertical size={20} />
             </div>
+
+            
             <div className="   text-sm gap-1 flex">
               <select
                 name=" "
@@ -81,12 +87,16 @@ export default function Header() {
               {" "}
               <RxDividerVertical size={20} />
             </div>
-            <div className="   text-sm gap-2 flex">
-              <p className=" ">
-                <FaUser size={20} />
-              </p>
-              <p className=" text-base">Login</p>
+            
+             <div className=" md:hidden lg:flex xl:flex 2xl:flex hidden fixed right-12  top-1">
+            <div className=" ">
+              <FaCartArrowDown className=" mt-3" size={24} />
             </div>
+            <div className=" bg-logo rounded-full flex justify-center items-center p-1 m-1   h-5 w-5">
+              <span className="text-white text-xs font-bold">{cart}</span>
+            </div>
+          </div>
+
           </div>
         </div>
       </div>
@@ -123,15 +133,12 @@ export default function Header() {
             </a>
           </div>
 
-          {/* cart */}
-          <div className=" md:hidden lg:flex xl:flex 2xl:flex hidden">
-            <div className=" mt-3">
-              <FaCartArrowDown size={28} />
+          <div className="   text-sm gap-2 flex">
+              <p className=" ">
+                <FaUser size={20} />
+              </p>
+              <p className=" text-base">Login</p>
             </div>
-            <div className="bg-primary rounded-full flex justify-center items-center p-1 m-1 h-6 w-6">
-              <span className="text-white text-xs font-bold">7</span>
-            </div>
-          </div>
 
           {/* small screen */}
           <div
